@@ -1,4 +1,4 @@
-* {
+ {
   box-sizing: border-box;
 }
 
@@ -7,38 +7,8 @@ body {
   overflow-x: hidden;
   font-size: 10px;
   line-height: 1.5;
-  color: #333;
-}
-
-/* home view */
-
-.video-header {
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  letter-spacing: .2rem;
   color: #fff;
-}
-
-.wrapper {
-  max-width: 960px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: auto;
-  text-align: center;
-}
-
-.video-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.video-wrapper video {
-  min-width: 100%;
-  min-height: 100%;
 }
 
 .overlay {
@@ -48,19 +18,29 @@ body {
   left: 0;
   width: 100vw;
   background-color: #111;
-  z-index: 1;
+  z-index: -1;
   opacity: 0.65;
 }
 
+#video {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
 .header-content {
-  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+  text-align: center;
 }
+
 
 .header-content h1 {
   font-size: 3rem;
@@ -85,4 +65,4 @@ body {
 .btn:hover {
   transition: 0.25s ease-in;
   background-color: red;
-}
+} */
