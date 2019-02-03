@@ -9,9 +9,21 @@ body {
   line-height: 1.5;
   letter-spacing: 0.2rem;
   color: #fff;
+  /* temp style */
+  background-color: #050505;
 }
 
-h2 {
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2,
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
   font-size: 1.5rem;
 }
 
@@ -112,3 +124,9 @@ li {
 }
 
 /* main content */
+
+/* selection cards */
+
+.cards {
+  border: 2px solid red;
+}
