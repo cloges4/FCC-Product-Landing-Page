@@ -125,8 +125,35 @@ li {
 
 /* main content */
 
+section h3 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-container p {
+  max-width: 50%;
+}
+
 /* selection cards */
 
 .cards {
   border: 2px solid red;
+}
+
+/* form */
+
+#form {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
 }
