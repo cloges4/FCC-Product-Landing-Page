@@ -8,9 +8,8 @@ body {
   font-size: 10px;
   line-height: 1.5;
   letter-spacing: 0.2rem;
-  color: #fff;
-  /* temp style */
-  background-color: #050505;
+  /* color: #fff; */
+  background-color: #f5f5f4;
 }
 
 img {
@@ -18,8 +17,7 @@ img {
   height: auto;
 }
 
-h2,
-h3 {
+h2 {
   font-size: 1.75rem;
 }
 
@@ -36,12 +34,16 @@ li {
   list-style-type: none;
 }
 
+section {
+  margin-top: 15rem;
+}
+
 .btn {
   background-color: transparent;
   color: #fff;
   font-size: 1.2rem;
   padding: 1rem 2rem;
-  border: 2px solid red;
+  border: 1px solid red;
   text-decoration: none;
 }
 
@@ -124,8 +126,10 @@ li {
 
 /* main content */
 
-section h3 {
+section > h3 {
   text-align: center;
+  margin-bottom: 10rem;
+  font-size: 2.5rem;
 }
 
 .grid-container {
@@ -134,7 +138,10 @@ section h3 {
   /* grid-gap: 25px; */
 }
 
-.grid-container p,
+.grid-container p {
+  margin-left: 1.5rem;
+}
+
 .grid-container img {
   justify-self: center;
 }
@@ -149,8 +156,24 @@ section h3 {
 
 .cards {
   max-width: 300px;
-  border: 2px solid red;
+  border: 1px solid red;
   justify-self: center;
+}
+
+.cards h4 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.cards p {
+  font-size: 1.25rem;
+  margin: 2.2rem 2.5rem 2.5rem;
+}
+
+.cards .btn {
+  display: block;
+  margin: 1.5rem auto;
 }
 
 /* form */
