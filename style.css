@@ -206,6 +206,32 @@ h3 {
   text-align: center;
 }
 
+input {
+  padding: 1rem 2rem;
+  margin-right: 0.5rem;
+}
+
+#submit {
+  padding: 0.8rem 2rem;
+}
+
+::-webkit-input-placeholder {
+  color: #ed6a5a;
+  font-size: 1.25rem;
+}
+::-moz-placeholder {
+  color: #ed6a5a;
+  font-size: 1.25rem;
+}
+:-ms-input-placeholder {
+  color: #ed6a5a;
+  font-size: 1.25rem;
+}
+::placeholder {
+  color: #ed6a5a;
+  font-size: 1.25rem;
+}
+
 /* footer */
 
 footer {
