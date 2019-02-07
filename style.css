@@ -42,17 +42,17 @@ section {
 }
 
 .btn {
-  background-color: transparent;
+  background-color: rgb(237, 106, 90);
   color: #fff;
   font-size: 1.2rem;
   padding: 1rem 2rem;
-  border: 1px solid red;
+  border: 1px solid #ed6a5a;
   text-decoration: none;
 }
 
 .btn:hover {
   transition: 0.25s ease-in;
-  background-color: red;
+  background-color: rgba(237, 106, 90, 0.8);
 }
 
 /* home  */
@@ -176,19 +176,22 @@ h3 {
 
 .cards {
   max-width: 300px;
-  border: 1px solid red;
+  border: 1px solid #ed6a5a;
   justify-self: center;
+  background-color: #f0f0f0;
 }
 
 .cards h4 {
   font-size: 2rem;
   text-align: center;
   margin: 2rem 0;
+  font-weight: 100;
 }
 
 .cards p {
   font-size: 1.25rem;
   margin: 2.2rem 2.5rem 2.5rem;
+  text-align: center;
 }
 
 .cards .btn {
