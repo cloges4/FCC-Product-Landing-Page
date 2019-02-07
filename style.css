@@ -6,10 +6,9 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-size: 10px;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.2rem;
-  /* color: #fff; */
-  background-color: #f5f5f4;
 }
 
 img {
@@ -19,6 +18,8 @@ img {
 
 h2 {
   font-size: 1.75rem;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 p {
@@ -56,6 +57,7 @@ section {
 
 #header {
   height: 100vh;
+  color: #fff;
 }
 
 .overlay {
@@ -90,6 +92,8 @@ section {
 
 .header-content h1 {
   font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 100;
   margin-bottom: 0;
 }
 
@@ -97,6 +101,7 @@ section {
   font-size: 1.5rem;
   display: block;
   padding-bottom: 2rem;
+  font-weight: 100;
 }
 
 /* nav-bar */
@@ -104,6 +109,11 @@ section {
 #nav-bar {
   display: flex;
   justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  opacity: 0.65;
 }
 
 #logo {
@@ -118,10 +128,16 @@ section {
   display: flex;
 }
 
-#nav-bar ul li {
+.nav-link {
   font-size: 1.25rem;
   padding-right: 1rem;
   margin: 1rem 0.5rem 0;
+  font-weight: 100;
+}
+
+.nav-link a:hover {
+  color: #ed6a5a;
+  /* opacity: 0.5; */
 }
 
 /* main content */
