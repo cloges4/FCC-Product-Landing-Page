@@ -235,6 +235,17 @@ input {
 /* footer */
 
 footer {
-  background-color: grey;
+  background-color: #111;
+  opacity: 0.85;
   text-align: center;
+  color: #fff;
+}
+
+footer p {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
+
+.icon-author {
+  padding-bottom: 1rem;
 }
