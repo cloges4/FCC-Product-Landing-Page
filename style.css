@@ -31,7 +31,6 @@ p {
 
 a {
   text-decoration: none;
-  /* color: #fff; */
 }
 
 li {
@@ -44,7 +43,6 @@ section {
 
 .btn {
   background-color: rgb(237, 106, 90);
-  /* color: #fff; */
   font-size: 1.2rem;
   padding: 1rem 2rem;
   border: 1px solid #ed6a5a;
@@ -73,7 +71,6 @@ a {
 
 #header {
   height: 100vh;
-  /* color: #fff; */
 }
 
 .overlay {
@@ -186,7 +183,6 @@ h3 {
 
 .cards {
   max-width: 300px;
-  /* border: 3px solid #ed6a5a; */
   border-radius: 5px;
   justify-self: center;
   background-color: #f0f0f0;
@@ -249,7 +245,6 @@ footer {
   background-color: #111;
   opacity: 0.85;
   text-align: center;
-  /* color: #fff; */
 }
 
 footer p {
