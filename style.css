@@ -9,7 +9,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.2rem;
-  color: #404040;
+  color: #fff;
   background-color: #fafafa;
 }
 
@@ -31,7 +31,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
 }
 
 li {
@@ -44,7 +44,7 @@ section {
 
 .btn {
   background-color: rgb(237, 106, 90);
-  color: #fff;
+  /* color: #fff; */
   font-size: 1.2rem;
   padding: 1rem 2rem;
   border: 1px solid #ed6a5a;
@@ -56,11 +56,24 @@ section {
   background-color: rgba(237, 106, 90, 0.8);
 }
 
+/* colors */
+
+.grid-container p,
+h3,
+.cards {
+  color: #404040;
+}
+
+.btn,
+a {
+  color: #fff;
+}
+
 /* home  */
 
 #header {
   height: 100vh;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .overlay {
@@ -180,7 +193,7 @@ h3 {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.cards h4 {
+h4 {
   font-size: 2rem;
   text-align: center;
   margin: 1rem 0;
@@ -236,7 +249,7 @@ footer {
   background-color: #111;
   opacity: 0.85;
   text-align: center;
-  color: #fff;
+  /* color: #fff; */
 }
 
 footer p {
