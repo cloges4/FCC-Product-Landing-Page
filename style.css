@@ -177,7 +177,7 @@ h3 {
 
 .cards {
   max-width: 300px;
-  border: 3px solid #ed6a5a;
+  /* border: 3px solid #ed6a5a; */
   border-radius: 5px;
   justify-self: center;
   background-color: #f0f0f0;
@@ -187,14 +187,14 @@ h3 {
 .cards h4 {
   font-size: 2rem;
   text-align: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-weight: 100;
 }
 
-.cards p {
-  font-size: 1.25rem;
-  margin: 2.2rem 2.5rem 2.5rem;
-  text-align: center;
+.cards ul li {
+  font-size: 1rem;
+  list-style: circle;
+  font-size: 400;
 }
 
 .cards .btn {
