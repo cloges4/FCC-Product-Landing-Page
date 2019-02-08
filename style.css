@@ -156,15 +156,11 @@ h3 {
 .grid-container {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  /* grid-gap: 25px; */
+  grid-column-gap: 10px;
 }
 
 .grid-container p {
   margin-left: 1.5rem;
-}
-
-.grid-container img {
-  justify-self: center;
 }
 
 /* selection cards */
@@ -172,7 +168,7 @@ h3 {
 .grid-container-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 50px 20px;
 }
 
 .cards {
@@ -251,4 +247,9 @@ footer p {
 
 .icon-author {
   padding-bottom: 1rem;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 900px) {
 }
