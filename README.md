@@ -2,6 +2,9 @@
 
 This project is part of the FreeCodeCamp Responsive Web Design Certification. Project requirements can be found [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page). 
 
+- [With tests](https://codepen.io/cloges4/full/NZywoo)
+- [Live](https://cloges4.github.io/FCC-Product-Landing-Page/)
+
 ## Getting Started
 
 Just clone the repository and open `index.html` in in browser.
