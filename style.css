@@ -176,10 +176,15 @@ h3 {
 
 /* selection cards */
 
+#plan {
+  margin-top: 25rem;
+}
+
 .grid-container-cards {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 15rem;
 }
 
 .cards {
