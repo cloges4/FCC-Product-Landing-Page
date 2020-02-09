@@ -252,11 +252,21 @@ footer {
   background-color: #111;
   opacity: 0.85;
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 footer p {
   font-size: 1.25rem;
-  padding-top: 1rem;
+  padding-top: .75rem;
+}
+
+.site-info a {
+  color: #ed6a5a;
+}
+.site-info p {
+  margin: .5rem;
+  padding-top: .5rem;
+
 }
 
 .icon-author {
