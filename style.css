@@ -167,6 +167,7 @@ h3 {
   display: grid;
   grid-template-columns: 3fr 2fr;
   grid-column-gap: 10px;
+  justify-items: center;
 }
 
 .grid-container p {
