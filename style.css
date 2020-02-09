@@ -176,9 +176,9 @@ h3 {
 /* selection cards */
 
 .grid-container-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 50px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .cards {
@@ -187,6 +187,7 @@ h3 {
   justify-self: center;
   background-color: #f0f0f0;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin: 1.5rem;
 }
 
 h4 {
